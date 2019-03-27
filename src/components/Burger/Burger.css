@@ -1,0 +1,39 @@
+.Burger{
+    width: 50%;
+    margin:auto;
+    height: 250px;
+    overflow: auto;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+@media(min-width:500px) and (min-height:400px){
+    .Burger{
+        min-width: 350px;
+        min-height: 300px;
+    }
+}
+  
+@media(min-width:500px) and (min-height:401px){
+    .Burger{
+        min-width: 450px;
+        min-height: 400px;
+    }
+}
+
+@media(min-width:600px){
+    .Burger{
+        width: 500px;
+    }
+}
+
+/* @media(min-width:1000px) and (min-height:700px){
+    .Burger{
+        min-width: 700px;
+        min-height: 600px;
+    }
+} */
+
+
+
